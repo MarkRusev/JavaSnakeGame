@@ -88,24 +88,31 @@ public class Game extends JPanel implements KeyListener, ActionListener {
 	}
 	
 	public void setRightHead(ImageIcon rightHead) {
+		
 		this.rightHead= new ImageIcon("righthead.png");
 	}
 	public void setLeftHead(ImageIcon leftHead) {
+		
 		this.leftHead= new ImageIcon("lefthead.png");
 	}
 	public void setUpHead(ImageIcon upHead) {
+		
 		this.upHead= new ImageIcon("uphead.png");
 	}
 	public void setDownHead(ImageIcon downHead) {
+		
 		this.downHead= new ImageIcon("downhead.png");
 	}
 	public void setSnakeBody(ImageIcon snakeBody) {
+		
 		this.snakeBody = new ImageIcon("snakebody.png");
 	}
 	public void setTitleImage(ImageIcon title) {
+		
 		this.title = new ImageIcon("snaketitle.jpg");
 	}
 	public void setAppleImage(ImageIcon apple) {
+		
 		this.enemyApple = new ImageIcon("apple.png");
 	}
 	
